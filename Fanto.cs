@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,10 +35,10 @@ namespace Fan
         public virtual void ToString()
         {
             if (On == false)
-            { Console.WriteLine($"fan is off:Speed={this.Speed=Speed},Radius={this.Radius = Radius},Color={this.Color = Color}");}
+            { Console.WriteLine($"fan is off:"); }
             if (On == true)
-            { Console.WriteLine($"fan is on:Speed={this.Speed = Speed},Radius={this.Radius = Radius},Color={this.Color = Color}") ; }
+            { Console.WriteLine($"fan is on:"); }
+            Console.WriteLine($"Speed={this.Speed = Speed},Radius={this.Radius = Radius},Color={this.Color = Color}");
         }
-    }
-    
+    }      
 }
