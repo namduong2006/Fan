@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -11,10 +11,10 @@ namespace Fan
     {
         static void Main(string[] args)
         {
-            Fanto fanto1 = new Fanto(true,3,10, "yellow");
-            fanto1.ToString();
-            Fanto fanto2 = new Fanto(false, 2, 5, "blue");
-            fanto2.ToString();
+            Fanto Fan1 = new Fanto(true,3,10, "yellow");
+            Fan1.ToString();
+            Fanto Fan2 = new Fanto(false, 2, 5, "blue");
+            Fan2.ToString();
             Console.ReadLine();
         }
     }
